@@ -1,0 +1,62 @@
+{
+    "version": 400,
+    "version_string": "0.4.0",
+    "next_node_id": 6,
+    "next_pin_id": 8,
+    "nodes": [
+        {
+            "id": 5,
+            "name": "IQNoise",
+            "position": [
+                293.000000,
+                268.000000
+            ],
+            "input_pins": {
+                "offset": {
+                    "id": 6
+                }
+            },
+            "output_pins": {
+                "output": {
+                    "id": 7
+                }
+            },
+            "properties": {
+                "voronoi": {
+                    "value": 1.000000
+                },
+                "blur": {
+                    "value": 0.000000
+                },
+                "panx": {
+                    "value": 1.000000
+                },
+                "pany": {
+                    "value": 1.000000
+                },
+                "scalex": {
+                    "value": 10.000000
+                },
+                "scaley": {
+                    "value": 10.000000
+                }
+            }
+        }
+    ],
+    "connections": {
+    },
+    "output_channels": [
+        {
+            "channel": "Custom0",
+            "node": 5
+        }
+    ],
+    "export_data": {
+        "output_path": "C:/Sources/Ekioo/FoilCardChallenge/Assets/Scenes",
+        "prefix": "Voronoi_",
+        "file_type": "png",
+        "output_channels_checks": {
+            "Custom0": true
+        }
+    }
+}
